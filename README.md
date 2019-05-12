@@ -17,11 +17,11 @@ jsonString = "{\"EventsList\":[{\"DateStart\":\"2019-05-14 12:00:00\",\"DateEnd\
 ```
 Przy pierwszym uruchomieniu aplikacja sprawdza, czy kalendarz do którego dodawane są wydarzenia jest pusty, jeśli tak, dane w formacie JSON są przetwarzane i dodawane do kalendarza.
  
- ![alt text](https://i.ibb.co/8ztVgGM/1111.png)
+![alt text](https://i.ibb.co/8ztVgGM/1111.png)
 
 Poniżej został przedstawiony zrzut ekranu pokazujący uruchomioną aplikację. Widoczna jest lista z informacjami na temat wydarzeń, posortowanymi zgodnie z datą rozpoczęcia.
 
- ![alt text](https://i.ibb.co/5K2172V/Bez-tytu-u.jpg)
+![alt text](https://i.ibb.co/5K2172V/Bez-tytu-u.jpg)
 
 Dodatkowo do dyspozycji są trzy przyciski 
 - „Usuń wszystkie wydarzenia” - czyści wszystkie wydarzenia w kalendarzu, 
