@@ -26,4 +26,4 @@ Poniżej został przedstawiony zrzut ekranu pokazujący uruchomioną aplikację.
 Dodatkowo do dyspozycji są trzy przyciski 
 - „Usuń wszystkie wydarzenia” - czyści wszystkie wydarzenia w kalendarzu, 
 - „Odśwież wydarzenia” - pobiera aktualne wydarzenia z kalendarza,
-- „Dodaj wydarzenia z JSON” – jeśli kalendarz jest pusty dodaje wydarzenia z dany wejściowych w postaci JSON. 
+- „Dodaj wydarzenia z JSON” – jeśli kalendarz jest pusty dodaje wydarzenia z danych wejściowych w postaci JSON. 
