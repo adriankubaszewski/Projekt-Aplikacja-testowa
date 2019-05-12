@@ -1,0 +1,27 @@
+﻿<Window x:Class="Projekt_ILock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt_ILock"
+        mc:Ignorable="d"
+        Title="Aplikacja testowa ILock" Height="314.246" Width="989.805">
+    <Grid>
+        <ListView Name="lvCalendarEvent" HorizontalAlignment="Left" Height="209" Margin="197,18,0,0" VerticalAlignment="Top" Width="748">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Start" DisplayMemberBinding="{Binding DateStart}" Width="130"/>
+                    <GridViewColumn Header="Koniec" DisplayMemberBinding="{Binding DateEnd}" Width="130"/>
+                    <GridViewColumn Header="Nazwa" DisplayMemberBinding="{Binding Summary}" Width="140"/>
+                    <GridViewColumn Header="Opis" DisplayMemberBinding="{Binding Description}" Width="220"/>
+                    <GridViewColumn Header="Lokalizacja" DisplayMemberBinding="{Binding Location}" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Name="btDeleteEvents" Content="Usuń wszystkie wydarzenia" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Width="164" Click="BtDeleteEvents_Click"/>
+        <Button Name="btRefreshEvents" Content="Odśwież wydarzenia" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top" Width="164" Click="BtRefreshEvents_Click"/>
+        <Button Name="btAddEventsJSON" Content="Dodaj wydarzenia z JSON" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" Width="164" Click="BtAddEventsJSON_Click"/>
+
+
+    </Grid>
+</Window>
