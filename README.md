@@ -1,7 +1,4 @@
-# Projekt-ILock-Aplikacja-testowa
-Aplikacja testowa utworzona w celach rekrutacji
-
-Instrukcja obsługi aplikacji „Aplikacja testowa ILock”
+Instrukcja obsługi aplikacji „Aplikacja testowa Google Calendar”
 Przygotowane dane wejściowe w postaci zdarzeń w formacie JSON przedstawiają 10 wydarzeń, które będą dodane do kalendarza Google.
 ```ruby
 jsonString = "{\"EventsList\":[{\"DateStart\":\"2019-05-14 12:00:00\",\"DateEnd\":\"2019-05-14 12:30:00\",\"Summary\":\"Wydarzenie 1\",\"Description\":\"Opis wydarzenia 1\",\"Location\":\"Poznań\"}," +
